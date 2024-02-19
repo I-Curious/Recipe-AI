@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Instafood",
+    "slug": "instafood-recipes-app",
+    "description": "React Native Recipes App Demo. Download source code for free at https://www.instamobile.io . You can also check out the Swift version at https://www.iosapptemplates.com and the Kotlin version at https://www.instakotlin.com .",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/a5aefcf3-bfa3-4db9-a9e4-41602d52e447"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.simithbho.instafoodrecipesapp",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "speechRecogntionPermission": "Allow $(PRODUCT_NAME) to securely recognize user speech"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a5aefcf3-bfa3-4db9-a9e4-41602d52e447"
+      }
+    },
+    "owner": "simithbho"
+  }
+}
